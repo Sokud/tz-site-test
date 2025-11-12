@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.login-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.form-control:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: 600;
+}
+
+.demo-credentials {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    
+    .login-card {
+        padding: 1.5rem;
+    }
+}
